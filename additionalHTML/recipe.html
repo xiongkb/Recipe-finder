@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team 4 - Recipe</title>
+    <!-- link to materialize library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/recipestyle.css">
+</head>
+<body>
+    <!-- Banner Div block -->
+    <div class="container">
+        <div class = "title">
+            <h1 class="title">RECIPE ROULETTE</p>
+        </div>
+        <a class="waves-effect btn back-btn" href="../index.html"><i class="material-icons">keyboard_return</i></a>
+        <!-- User input field -->
+        <div class="user-input">
+            <form id="formId">
+                <!-- <input class="validate" id="ingredient" placeholder="Enter Ingredient" type="text"> -->
+                <div class="row addText">
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="input-field col s6 offset-s3">
+                          <input id="ingredient" type="text" class="validate" placeholder="Enter Ingredient">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                <div id="errorMsg" class="bg-danger"></div>
+                <button class="btn" id = "addButton">Add Ingredient</button>
+                <button class="btn" id = "submitButton">Enter</button>
+                <button class="btn" id = "clearButton">Clear</button>
+            </form>
+            <div class="addedIngredients">
+                
+            </div>
+        </div>
+        
+        <div class="results">
+            
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/javascript/javascript.js"></script>
+</body>
+</html>
